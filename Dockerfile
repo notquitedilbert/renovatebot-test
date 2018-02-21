@@ -1,7 +1,7 @@
 #####################################################################
 # MULTISTAGE BUILD - CREATE TLS CERTS
 #####################################################################
-FROM debian:wheezy@sha256:43183ee016d2b2b1808fa46d0735b75cea0fedede5b444dde3d2a591fd91a7a8 as cert-creator
+FROM debian:wheezy@sha256:21c3c65a91237130c377abc18e733672e101fbe1dec8ea338862ed951d6adf1a as cert-creator
 
 #####################################################################
 # CACHE THE INSTALL STEPS
