@@ -11,5 +11,5 @@ RUN apt-get update
 #####################################################################
 # USING MULTI STAGE BUILDS - BUILD STAGE CREATES THE NODE MODULES
 #####################################################################
-FROM node:alpine@sha256:50ae5f22356c5a0b0c0ea76d27a453b0baf577c61633aee25cea93dcacec1630 as build_stage
+FROM node:alpine as build_stage
 
