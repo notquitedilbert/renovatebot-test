@@ -1,5 +1,7 @@
 #####################################################################
-# Expect stage 3 to be removed
+# more than 3 FROM statements
+# Expect all to be updated
+# result - last FROM ignored
 #####################################################################
 FROM node:alpine as stage-1
 

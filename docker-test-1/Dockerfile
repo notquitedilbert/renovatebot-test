@@ -1,7 +1,7 @@
 #####################################################################
 # trailing new line, matching FROM
 # EXPECT all three aliases to be un-changed
-# RESULT -
+# RESULT - digest added, no changes to aliass
 #####################################################################
 FROM debian:wheezy as stage-1
 
