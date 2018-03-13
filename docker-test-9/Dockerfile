@@ -7,4 +7,4 @@ FROM debian:wheezy as stage-1
 FROM node:alpine as stage-2
 
 #####################################################################
-FROM debian:wheezy as stage-3
+FROM FROM openjdk:alpine as stage-3
