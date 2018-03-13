@@ -1,19 +1,10 @@
 #####################################################################
-# MULTISTAGE BUILD - CREATE TLS CERTS
+# expect all three aliases to be un-changed
 #####################################################################
-FROM debian:wheezy as cert-creator
+FROM debian:wheezy as stage-1
 
 #####################################################################
-# CACHE THE INSTALL STEPS
-#####################################################################
-RUN apt-get update
+FROM node:alpine as stage-2
 
 #####################################################################
-# USING MULTI STAGE BUILDS - BUILD STAGE CREATES THE NODE MODULES
-#####################################################################
-FROM node:alpine as build_stage
-
-#####################################################################
-# USING MULTI STAGE BUILDS - BUILD STAGE CREATES THE NODE MODULES
-#####################################################################
-FROM node:alpine as test_stage
+FROM node:alpine as stage-2

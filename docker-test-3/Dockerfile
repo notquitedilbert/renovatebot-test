@@ -1,12 +1,10 @@
 #####################################################################
-# Expect all alias to stay the same
+# Expect stage-2 to be missing (it's not just node:alpine)
 #####################################################################
 FROM debian:wheezy as stage-1
 
 #####################################################################
-FROM node:alpine as stage-2
+FROM debian:wheezy as stage-2
 
 #####################################################################
-FROM node:alpine as stage-3
-
-#####################################################################
+FROM debian:wheezy
