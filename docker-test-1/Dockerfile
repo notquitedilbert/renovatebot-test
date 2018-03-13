@@ -1,5 +1,7 @@
 #####################################################################
-# expect all three aliases to be un-changed
+# trailing new line, matching FROM
+# EXPECT all three aliases to be un-changed
+# RESULT -
 #####################################################################
 FROM debian:wheezy as stage-1
 
@@ -7,4 +9,4 @@ FROM debian:wheezy as stage-1
 FROM node:alpine as stage-2
 
 #####################################################################
-FROM node:alpine as stage-2
+FROM node:alpine as stage-3

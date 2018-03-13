@@ -1,5 +1,7 @@
 #####################################################################
-# Expect stage-1 alias to be removed
+# no trailing newline
+# Expect all to be updated
+# result - last FROM ignored
 #####################################################################
 FROM debian:wheezy as stage-1
 
