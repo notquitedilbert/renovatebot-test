@@ -3,6 +3,6 @@
     "config:base"
   ],
   "docker":{
-    "automerge": "true"
+    "automerge": true
   }
 }
