@@ -1,0 +1,29 @@
+{
+  "name": "renovate-test",
+  "version": "1.0.0",
+  "description": "just some test files for renovate bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notquitedilbert/renovatebot-test.git"
+  },
+  "keywords": [
+    "renovate",
+    "docker",
+    "test"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notquitedilbert/renovatebot-test/issues"
+  },
+  "homepage": "https://github.com/notquitedilbert/renovatebot-test#readme",
+  "renovate": {
+    "docker": {
+      "automerge": true
+    }
+  }
+}
