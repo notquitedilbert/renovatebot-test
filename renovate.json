@@ -1,6 +1,6 @@
 {
   "extends": [
-    "config:base"
+    "config:base","default:automergeDigest"
   ],
   "automerge": false,
   "branchPrefix": "test/"
