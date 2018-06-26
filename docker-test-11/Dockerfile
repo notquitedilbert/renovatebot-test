@@ -4,7 +4,7 @@ FROM debian:wheezy@sha256:d949cbb93a58de27eec4c911f27b9f09edeb3d3ce57cf5ce77d474
 #####################################################################
 FROM debian:wheezy@sha256:d949cbb93a58de27eec4c911f27b9f09edeb3d3ce57cf5ce77d4745211c947f6
 #####################################################################
-FROM node:alpine@sha256:d3780f5d4e49743e448f037c75b533123c3f96eb51750fc83c3e59b791a1cabf as test-2
+FROM node:alpine@sha256:21b58de0d309e8b793fb508e610762e522074a3bd5bef6f3ff74b7bade338aec as test-2
 #####################################################################
-FROM node:alpine@sha256:d3780f5d4e49743e448f037c75b533123c3f96eb51750fc83c3e59b791a1cabf
+FROM node:alpine@sha256:21b58de0d309e8b793fb508e610762e522074a3bd5bef6f3ff74b7bade338aec
 #####################################################################
