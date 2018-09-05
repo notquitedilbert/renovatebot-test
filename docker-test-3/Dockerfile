@@ -9,5 +9,5 @@ FROM debian:wheezy  as stage-1
 FROM debian:wheezy  as stage-2
 
 #####################################################################
-FROM debian:wheezy@sha256:d949cbb93a58de27eec4c911f27b9f09edeb3d3ce57cf5ce77d4745211c947f6
+FROM debian:wheezy@sha256:d00f167f8f2e70ecc2e0f5410a3cb74cd4ad720e33b9810da6a2dcfa81dccfc0
 
