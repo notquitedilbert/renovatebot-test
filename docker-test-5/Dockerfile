@@ -3,7 +3,7 @@
 # Expect all to be updated
 # result - last FROM ignored
 #####################################################################
-FROM node:alpine@sha256:9df9329306194c156863c74e97e43b54aee3884940b971e87c5c1db2f82c766a as stage-1
+FROM node:alpine@sha256:52b2cd20b5b966cdea42c51840a092072192c8d2fa8b1b781780b218ff0cc35b as stage-1
 
 #####################################################################
-FROM node:alpine@sha256:9df9329306194c156863c74e97e43b54aee3884940b971e87c5c1db2f82c766a
+FROM node:alpine@sha256:52b2cd20b5b966cdea42c51840a092072192c8d2fa8b1b781780b218ff0cc35b

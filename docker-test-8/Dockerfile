@@ -4,5 +4,5 @@
 FROM debian:wheezy@sha256:a69871c0696dcc995ea3d4a2d5c849b22f1ca1f1d13a3049b689ff2af6e95842 as stage-1
 
 #####################################################################
-FROM node:alpine@sha256:9df9329306194c156863c74e97e43b54aee3884940b971e87c5c1db2f82c766a as stage-2
+FROM node:alpine@sha256:52b2cd20b5b966cdea42c51840a092072192c8d2fa8b1b781780b218ff0cc35b as stage-2
 
