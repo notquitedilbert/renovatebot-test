@@ -3,7 +3,7 @@
 # Expect all to be updated
 # result - Alais removed from first FROM, other FROM statements ignored
 #####################################################################
-FROM debian:wheezy@sha256:a69871c0696dcc995ea3d4a2d5c849b22f1ca1f1d13a3049b689ff2af6e95842 as stage-1
+FROM debian:wheezy@sha256:3f4102a4ec1ab3b284ae3a8e3e3ae49f9e71ab8c750edd2e9331e29aaf70bc25 as stage-1
 
 #####################################################################
 FROM node:alpine@sha256:324ccac1d7c4ddf5eb9f9ed5274c37c90965605b5eb68df0a67c6266837bfb79
