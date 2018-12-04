@@ -4,7 +4,7 @@
 FROM debian:wheezy@sha256:37103c15605251b2e35b70a3214af626a55cff39abbaadccd01ff828ee7005e0 as stage-1
 
 #####################################################################
-FROM node:alpine@sha256:6fb75f9947e17826c41a7621cead11eb4ec88df50a26a9ba9b5a4124522958f8 as stage-2
+FROM node:alpine@sha256:029be424179376ad781ea288df52a7c4b84ec0ca1da59c5a3a98fca84fcbab91 as stage-2
 
 #####################################################################
 FROM openjdk:alpine@sha256:1fd5a77d82536c88486e526da26ae79b6cd8a14006eb3da3a25eb8d2d682ccd6 as stage-3
